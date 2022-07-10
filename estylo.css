@@ -1,0 +1,326 @@
+*{
+     margin: 0 auto;
+     padding: 0px;
+    
+
+}
+
+.corp1{
+
+     width: 100%;
+     height: 433px;
+     background-image: url(imagen2.jpeg);
+     background-repeat: no-repeat;
+     background-size: 100% 50%;
+     background-position-y: 50px;
+     background-attachment: fixed;
+     
+
+}
+
+
+#menu-h ul{
+     list-style: none;
+     background-color: rgb(3, 2, 2);
+     
+}
+
+#menu-h ul li{
+     display: inline;
+     
+}
+
+#menu-h ul li a {
+
+     color: rgb(182, 18, 6);
+     padding: 16px;
+     display: inline;
+     text-decoration: none;
+     display: inline-block;
+     
+
+     }
+
+#menu-h ul li a:hover{
+     background-color: antiquewhite;
+     transition: background  .6s;
+}
+
+#menu-h ul li:last-child a{
+     float: right;
+     background-color: dodgerblue;
+     color: antiquewhite;
+}
+
+#menu-2 ul li:last-child a{
+     float: left;
+     background-color: rgb(0, 2, 3);
+     color: rgb(175, 10, 10);
+}
+
+#menu-2 ul li a:hover{
+
+     background-color: antiquewhite;
+     transition: background  .6s;
+}
+
+#menu-2 ul{
+     list-style: none;
+     background-color: rgb(3, 2, 2);
+}
+
+
+#menu-2 ul li a {
+
+     color: rgb(182, 18, 6);
+     padding: 16px;
+     display: inline;
+     text-decoration: none;
+     display: inline-block;
+     
+
+     }
+
+
+.rdp{
+     padding: 30px;
+     position: absolute;
+     bottom: 0px;
+     width: 100%;
+     background-color: black;
+}
+
+
+
+#lis1 dd img{
+     width: 150px;
+     height: 160px;
+}
+
+#lis1{
+
+margin-top: 10%;
+}
+
+
+#titu {
+     color: white;
+     padding: 25px;
+     background-color: rgb(2, 0, 107);
+     
+     
+}
+
+#titu h2{
+
+     text-align: center;
+     text-decoration: underline;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+#corpo2{
+     background-color: rgb(5, 1, 1);
+     
+}
+
+
+#lis1 dd{
+     display: inline;
+     font-display: 5px;
+     padding: 5px;
+     color: white;
+     
+     
+
+}
+
+#lis1 dd{
+     text-align: justify;
+     height: 5px;
+}
+
+#anco{
+     padding: 15px;
+     width: 100%;
+     background-color: rgb(95, 0, 0);
+     color: indigo;
+}
+
+#anco a{
+     text-decoration: none;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     padding: 15px;
+}
+
+#anco a:hover{
+     background-color: rgb(252, 247, 247);
+     transition: background 0.3s;
+}
+
+
+
+#f1{
+     margin-top: 150px;
+     margin-right: 40%;
+     margin-bottom: 100%;
+     background-position: center;
+     
+}
+
+#f1 input[type="reset"], input[type="submit"]{
+     
+     font-size: 20px;
+
+}
+
+
+#f1 input[type="text"]{
+    
+     padding: 6px 6px;
+     margin: 5px 0;
+     box-sizing: border-box;
+}
+
+#t2{
+     width: 100%;
+     color: white;
+     background-color: rgb(173, 3, 3);
+     padding: 12px;
+}
+
+#t2 h2{
+     text-align: center;
+     text-decoration: underline;
+}
+
+#corpo3{
+     background-color: blue;
+}
+
+#f1{
+     background-color: dimgray;
+    
+}
+
+.f-1{
+     float: center;
+     margin-left: 30%;
+}
+
+#f1 select[type="text"]{
+     padding: 6px 6px;
+     margin: 5px 0;
+     box-sizing: border-box;
+
+}
+
+#tab1{
+	
+	margin-top:50px;
+	margin-right:80%;
+	
+}
+
+#corpo4{
+     background-color: black;
+}
+
+#lis2 dd img{
+     width: 150px;
+     height: 160px;
+}
+
+#lis2{
+
+     margin-top: 10%;
+     }
+
+     #titu1 {
+          color: white;
+          padding: 25px;
+          background-color: rgb(2, 0, 107);
+     }
+
+
+     #titu1 h2{
+
+          text-align: center;
+          text-decoration: underline;
+          font-family: 'Times New Roman', Times, serif;
+     }
+
+     #lis2 dd{
+          display: inline;
+          font-display: 5px;
+          padding: 5px;
+          color: white;
+     }
+
+     #lis1 dd{
+          text-align: justify;
+          height: 5px;
+
+     }
+
+
+     #titu2 {
+          color: white;
+          padding: 20px;
+          background-color: rgb(2, 0, 107);
+     }
+
+     #titu2 h2{
+
+          text-align: center;
+          text-decoration: underline;
+          font-family: 'Times New Roman', Times, serif;
+     }
+
+
+     #lis3 dd{
+          display: inline;
+          font-display: 5px;
+          padding: 5px;
+          color: white;
+     }
+
+     #lis3 dd{
+          text-align: justify;
+          height: 5px;
+
+     }
+
+     #corpo5{
+          background-color:cornflowerblue;
+     }
+     
+
+     #lis3 dd img{
+          width: 100px;
+          height: 100px;
+     }
+
+     #lis3{
+
+          margin-top: 10%;
+          }
+
+     #tab1{
+          background-color: darkviolet;
+          float: center;
+          margin: 10px 30%;
+          
+     }
+
+     #tab1{
+          width: 50%;
+          right: 50%;
+     }
+
+     
+
+
+
+
+
+
